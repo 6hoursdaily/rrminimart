@@ -17,13 +17,8 @@ Private Sub Form_Load()
 
 End Sub
 
-'Private Sub Form_Timer()
-'  If Me.TimerInterval = 5000 Then
-'    Me.notification.Visible = False
-'    Me.TimerInterval = 0
-'  End If
-'End Sub
-
 Private Sub img_sales_Click()
+  
   Call changenavitem("active_03", "inactive_03", "sales")
+
 End Sub

@@ -24,7 +24,6 @@ Public rst As DAO.Recordset
 Public strSQL As String
 Public strUser As String
 Public strUserID As Variant
-Public strRoleID As Integer
 Public strSQLSearch As String
 Public strCode As String
 Public strSQLEdit As String

@@ -61,6 +61,7 @@ On Error GoTo Err_button_login_Click
     isLoggedin = True
 
     Call route("welcome")
+    Call main_styles
     Call shownav
     Call mainframe_styles
     
